@@ -1,0 +1,40 @@
+body
+{
+overflow: hidden;
+}
+
+th, td {
+    padding: 5px;
+}
+
+#header {
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   right: 0px;
+   height: 100px;
+   background: #178AD4;
+   overflow: hidden;
+}
+
+#questionbox {
+   position: absolute;
+   top: 150px;
+   left: 150px;
+   height: 450px;
+   width: 80%;
+   background: #FFFFFF;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   border:1px solid black;
+}
+
+#questionbox_inner {
+   position: absolute;
+   top: 20px;
+   left: 20px;
+   overflow-x: auto;
+
+}
+
+
